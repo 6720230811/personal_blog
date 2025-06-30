@@ -1,19 +1,13 @@
 # personal_blog
 
 这是个人博客的综合平台，提供开源项目追踪和技术内容分享。
-<div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px 0;">
-  <img src="[https://github.com/6720230811/personal_blog/tree/main/images/1.png](https://github.com/6720230811/personal_blog/blob/main/imags/1.png)" style="height: 200px; flex-shrink: 0;">
-  <img src="[https://github.com/6720230811/personal_blog/tree/main/images/2.png](https://github.com/6720230811/personal_blog/blob/main/imags/2.png)" style="height: 200px; flex-shrink: 0;">
-  <img src="[https://github.com/6720230811/personal_blog/tree/main/images/3.png](https://github.com/6720230811/personal_blog/blob/main/imags/3.png)" style="height: 200px; flex-shrink: 0;">
-  <img src="[https://github.com/6720230811/personal_blog/tree/main/images/4.png](https://github.com/6720230811/personal_blog/blob/main/imags/4.png)" style="height: 200px; flex-shrink: 0;">
-  <img src="[https://github.com/6720230811/personal_blog/tree/main/images/5.png](https://github.com/6720230811/personal_blog/blob/main/imags/5.png)" style="height: 200px; flex-shrink: 0;">
-</div>
 <details>
-<summary>点击展开轮播图</summary>
-  
-![图片1]([image1.jpg](https://github.com/6720230811/personal_blog/blob/main/imags/1.png))
-![图片2]([image2.jpg](https://github.com/6720230811/personal_blog/blob/main/imags/1.png))
-
+<summary>📷 点击展开图片轮播</summary>
+![图片1](https://github.com/6720230811/personal_blog/raw/main/imags/1.png)
+![图片2](https://github.com/6720230811/personal_blog/raw/main/imags/2.png)
+![图片3](https://github.com/6720230811/personal_blog/raw/main/imags/3.png)
+![图片4](https://github.com/6720230811/personal_blog/raw/main/imags/4.png)
+![图片5](https://github.com/6720230811/personal_blog/raw/main/imags/5.png)
 </details>
 
 ## 功能特点
