@@ -6,7 +6,7 @@
   <img src="[https://github.com/6720230811/personal_blog/tree/main/images/2.png](https://github.com/6720230811/personal_blog/blob/main/imags/2.png)" style="height: 200px; flex-shrink: 0;">
   <img src="[https://github.com/6720230811/personal_blog/tree/main/images/3.png](https://github.com/6720230811/personal_blog/blob/main/imags/3.png)" style="height: 200px; flex-shrink: 0;">
   <img src="[https://github.com/6720230811/personal_blog/tree/main/images/4.png](https://github.com/6720230811/personal_blog/blob/main/imags/4.png)" style="height: 200px; flex-shrink: 0;">
-  <img src="h[ttps://github.com/6720230811/personal_blog/tree/main/images/5.png](https://github.com/6720230811/personal_blog/blob/main/imags/5.png)" style="height: 200px; flex-shrink: 0;">
+  <img src="[https://github.com/6720230811/personal_blog/tree/main/images/5.png](https://github.com/6720230811/personal_blog/blob/main/imags/5.png)" style="height: 200px; flex-shrink: 0;">
 </div>
 
 ## 功能特点
