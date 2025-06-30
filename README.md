@@ -1,7 +1,14 @@
 # personal_blog
 
 这是个人博客的综合平台，提供开源项目追踪和技术内容分享。
+<div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px 0;">
+  <img src="https://github.com/6720230811/personal_blog/images/1.png" style="height: 200px; flex-shrink: 0;">
+  <img src="https://github.com/6720230811/personal_blog/images/2.png" style="height: 200px; flex-shrink: 0;">
+  <img src="https://github.com/6720230811/personal_blog/images/3.png" style="height: 200px; flex-shrink: 0;">
+  <img src="https://github.com/6720230811/personal_blog/images/4.png" style="height: 200px; flex-shrink: 0;">
+  <img src="https://github.com/6720230811/personal_blog/images/5.png" style="height: 200px; flex-shrink: 0;">
 
+</div>
 ## 功能特点
 ### 博客系统功能
 - 📝 技术博客文章发布
