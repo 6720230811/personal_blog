@@ -1,8 +1,6 @@
 """
 Django项目设置文件
 功能：配置Django项目的各种设置参数
-作者：GitHub Sentinel Team
-版本：0.0.1
 """
 
 import os
