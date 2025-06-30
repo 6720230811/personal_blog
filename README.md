@@ -2,11 +2,11 @@
 
 这是个人博客的综合平台，提供开源项目追踪和技术内容分享。
 <div style="display: flex; overflow-x: auto; gap: 10px; padding: 10px 0;">
-  <img src="https://github.com/6720230811/personal_blog/images/1.png" style="height: 200px; flex-shrink: 0;">
-  <img src="https://github.com/6720230811/personal_blog/images/2.png" style="height: 200px; flex-shrink: 0;">
-  <img src="https://github.com/6720230811/personal_blog/images/3.png" style="height: 200px; flex-shrink: 0;">
-  <img src="https://github.com/6720230811/personal_blog/images/4.png" style="height: 200px; flex-shrink: 0;">
-  <img src="https://github.com/6720230811/personal_blog/images/5.png" style="height: 200px; flex-shrink: 0;">
+  <img src="https://github.com/6720230811/personal_blog/tree/main/images/1.png" style="height: 200px; flex-shrink: 0;">
+  <img src="https://github.com/6720230811/personal_blog/tree/main/images/2.png" style="height: 200px; flex-shrink: 0;">
+  <img src="https://github.com/6720230811/personal_blog/tree/main/images/3.png" style="height: 200px; flex-shrink: 0;">
+  <img src="https://github.com/6720230811/personal_blog/tree/main/images/4.png" style="height: 200px; flex-shrink: 0;">
+  <img src="https://github.com/6720230811/personal_blog/tree/main/images/5.png" style="height: 200px; flex-shrink: 0;">
 </div>
 
 ## 功能特点
