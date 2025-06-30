@@ -8,6 +8,13 @@
   <img src="[https://github.com/6720230811/personal_blog/tree/main/images/4.png](https://github.com/6720230811/personal_blog/blob/main/imags/4.png)" style="height: 200px; flex-shrink: 0;">
   <img src="[https://github.com/6720230811/personal_blog/tree/main/images/5.png](https://github.com/6720230811/personal_blog/blob/main/imags/5.png)" style="height: 200px; flex-shrink: 0;">
 </div>
+<details>
+<summary>点击展开轮播图</summary>
+  
+![图片1]([image1.jpg](https://github.com/6720230811/personal_blog/blob/main/imags/1.png))
+![图片2]([image2.jpg](https://github.com/6720230811/personal_blog/blob/main/imags/1.png))
+
+</details>
 
 ## 功能特点
 ### 博客系统功能
