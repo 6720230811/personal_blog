@@ -1,0 +1,11 @@
+# Python依赖包列表
+# GitHub项目监控和智能问答系统所需的所有Python包
+
+Django>=4.2.0              # Web框架
+python-dotenv>=1.0.0       # 环境变量管理
+langchain>=0.1.0           # AI应用开发框架
+openai>=1.0.0              # OpenAI API客户端
+yagmail>=0.15.0            # 邮件发送库
+requests>=2.31.0           # HTTP请求库
+django-cors-headers>=4.0.0 # Django跨域支持
+schedule==1.2.0 

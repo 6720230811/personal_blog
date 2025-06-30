@@ -1,0 +1,250 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #fff;
+  background-color: #264b2c;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* 响应式宽度变量 */
+  --max-width-xxl: 1400px;
+  --max-width-xl: 1200px;
+  --max-width-lg: 1000px;
+  --max-width-md: 768px;
+  --max-width-sm: 576px;
+  
+  /* 内容宽度变量 */
+  --content-width-full: 100%;
+  --content-width-wide: 90%;
+  --content-width-normal: 80%;
+  --content-width-narrow: 70%;
+  
+  /* 间距变量 */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  
+  /* 颜色变量 */
+  --color-background: #264b2c;
+  --color-text: #ffffff;
+  --color-text-muted: #ebebeb;
+  --color-link: #3dd6d0;
+  --color-link-hover: #2bc4be;
+  --responsive-width-s: 90vw;
+}
+
+a {
+  font-weight: 500;
+  color: var(--color-link);
+  text-decoration: inherit;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 2.4em;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 1.8em;
+  line-height: 1.3;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--color-link);
+  color: white;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  border-color: var(--color-link-hover);
+  background-color: var(--color-link-hover);
+  transform: translateY(-2px);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 2px solid var(--color-link-hover);
+  outline-offset: 2px;
+}
+
+.card {
+  padding: 2em;
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* 容器类 */
+.container {
+  width: var(--content-width-normal);
+  max-width: var(--max-width-xl);
+  margin: 0 auto;
+  padding: var(--spacing-md);
+}
+
+.container-narrow {
+  width: var(--content-width-narrow);
+  max-width: var(--max-width-lg);
+  margin: 0 auto;
+  padding: var(--spacing-md);
+}
+
+.container-wide {
+  width: var(--content-width-wide);
+  max-width: var(--max-width-xxl);
+  margin: 0 auto;
+  padding: var(--spacing-md);
+}
+
+/* 布局辅助类 */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-sm {
+  gap: var(--spacing-sm);
+}
+
+.gap-md {
+  gap: var(--spacing-md);
+}
+
+.gap-lg {
+  gap: var(--spacing-lg);
+}
+
+#app {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: var(--color-background);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 响应式设计 */
+@media (max-width: 1200px) {
+  :root {
+    --content-width-normal: 90%;
+    --content-width-narrow: 80%;
+    --content-width-wide: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --content-width-normal: 95%;
+    --content-width-narrow: 90%;
+    --content-width-wide: 100%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    font-size: 2em;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+  }
+  
+  .container, .container-narrow, .container-wide {
+    padding: var(--spacing-sm);
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.7em;
+  }
+  
+  h3 {
+    font-size: 1.3em;
+  }
+  
+  .card {
+    padding: 1em;
+  }
+}
+
+/* 动画效果 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #000;
+    background-color: #f0f7fa;
+  }
+  a:hover {
+    color: #2980b9;
+  }
+  button {
+    background-color: #3498db;
+    color: white;
+  }
+}
