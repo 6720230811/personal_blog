@@ -1,10 +1,3 @@
-/**
- * Vue Router路由配置
- * 功能：定义前端应用的路由规则
- * 作者：GitHub Sentinel Team
- * 版本：0.0.1
- */
-
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
 
