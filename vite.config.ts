@@ -1,9 +1,4 @@
-/**
- * Vite构建工具配置文件
- * 功能：配置Vue项目的构建和开发服务器
- * 作者：GitHub Sentinel Team
- * 版本：0.0.1
- */
+
 
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
