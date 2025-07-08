@@ -1,10 +1,3 @@
-"""
-Django URL路由配置
-功能：定义API端点的URL映射
-作者：GitHub Sentinel Team
-版本：0.0.1
-"""
-
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from sentinel.views import (
