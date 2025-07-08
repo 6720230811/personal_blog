@@ -1,10 +1,3 @@
-"""
-agent_api应用设置
-功能：定义agent_api应用的配置参数
-作者：GitHub Sentinel Team
-版本：0.0.1
-"""
-
 from pathlib import Path
 import os
 
