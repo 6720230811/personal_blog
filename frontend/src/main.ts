@@ -1,9 +1,3 @@
-/**
- * Vue应用入口文件
- * 功能：创建Vue实例，加载路由和全局组件
- * 作者：GitHub Sentinel Team
- * 版本：0.0.1
- */
 
 import { createApp } from 'vue'
 import axios from 'axios'
