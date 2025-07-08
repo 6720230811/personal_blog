@@ -1,9 +1,3 @@
-"""
-Django API视图模块
-功能：提供GitHub项目监控和智能问答的REST API接口
-作者：GitHub Sentinel Team
-版本：0.0.1
-"""
 
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
